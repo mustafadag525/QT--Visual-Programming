@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+class Calisan{
+public:
+    string ad;
+    int yas;
+    Calisan(string ad,int yas)
+    {
+        this->ad=ad;
+        this->yas=yas;
+    }
+
+    void billgiyaz()
+    {
+        cout<<"ad: "<<ad<<"yas: "<<yas<<endl;
+    }
+};
+
+class Yazilimci:Calisan{
+
+public:
+    string kd;
+    Yazilimci(string ad,int yas,string kd):Calisan(ad,yas)
+    {
+        this->kd=kd;
+    }
+
+    void bilgiyaz()
+    {
+        cout<<"ad : "<<ad<<"yas: "<<yas<<"kullandıgı dil: "<<kd<<endl;
+    }
+};
+
+
+
+int main()
+{
+   /* Calisan cls=Calisan("mustafa",1);
+    cls.billgiyaz();
+*/
+
+    Yazilimci y=Yazilimci("mustafa",1,"c++");
+    y.bilgiyaz();
+    return 0;
+}
