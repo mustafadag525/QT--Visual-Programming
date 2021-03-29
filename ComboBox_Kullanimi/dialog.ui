@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="cmbRenk">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>60</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>blue</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>turquoise</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>lilac</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>beige</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>silver</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>black</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>violet</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>navy blue</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>brown</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>pink</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>purple</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>white</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>gray</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>yellow</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>orange</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>arka plan rengini seçiniz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblRenk">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>seçtiğiniz renk</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHatrla">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>60</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>hatırla</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
