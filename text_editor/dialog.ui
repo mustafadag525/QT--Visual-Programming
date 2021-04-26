@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btnYeni">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>yeni</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/dosyalar/resimler/Actions-document-new-icon.png</normalon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOku">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>80</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>oku</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/dosyalar/resimler/Reader-X-icon.png</normalon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnKaydet">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>kaydet</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/dosyalar/resimler/Actions-document-save-all-icon.png</normalon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="txtmetin">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>381</width>
+     <height>211</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

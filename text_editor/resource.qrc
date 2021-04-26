@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/dosyalar">
+        <file>resimler/Actions-document-new-icon.png</file>
+        <file>resimler/Actions-document-save-all-icon.png</file>
+        <file>resimler/Reader-X-icon.png</file>
+    </qresource>
+    <qresource prefix="/dialog">
+        <file>resimler/Alarm-Tick-icon.png</file>
+        <file>resimler/Delete-2-icon.png</file>
+    </qresource>
+</RCC>
